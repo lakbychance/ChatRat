@@ -1,0 +1,18 @@
+{
+  "name": "ChatRat",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "author":"Lakshya Thakur",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "scripts":
+  {
+  	"start":"node index.js"
+  }
+}

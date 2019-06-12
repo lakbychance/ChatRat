@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ChatRat</title>
+  </head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="/socket.io/socket.io.js"></script>
+<script src = "main.js"></script>
+  <body>
+      <div>
+        <div id="user">
+                <input placeholder = "Enter username" id="username" type="text" autocomplete="off"></input>
+                <button id  = "joinChat" onclick = "handleUsername()">Join Chat!</button>
+                </div>
+                <div id = "onlineUsers">
+                    <ul id = "listOfUsers"></ul>
+                </div>
+                <div id = "chatBoard">
+    <ul id="messages"></ul>
+    </div>
+    <form action="" onsubmit="event.preventDefault()">
+      <input placeholder="Type Message..." id="m" autocomplete="off" onchange="handleTyping(event)" /><button onclick="handleChatMessage()">Send</button>
+    </form>
+  </body>
+</html>

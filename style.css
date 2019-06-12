@@ -1,0 +1,110 @@
+      body { font: 13px Helvetica, Arial; }
+      form { padding: 3px; bottom: 0; width: 80%;margin-bottom:10px;
+        margin-top: 5px !important;
+    margin: auto;
+}
+      form input { border: 1px solid grey; padding: 10px; width: 75%;border-radius: 10px; font-size:15px}
+      form input:focus{
+          outline:none
+      }
+      form button { min-width: 9%; background: rgb(7, 144, 202); border: none; padding: 10px;border-radius: 20px;color:white;margin-left:2%;cursor: pointer; }
+      #messages { list-style-type: none; margin-top:5px; padding: 0; display: flex;flex-direction: column }
+      #messages li { padding: 5px 10px;
+       }
+       form button:focus{
+        outline: none;
+       }
+       .sender
+       {
+        margin-top: 5px;
+    background: #529eb7;
+    text-align: center !important;
+    color: white;
+    border-radius: 20px;
+    width: 40%;
+    height: 100%;
+    overflow-wrap: break-word;
+    align-self: flex-end;
+
+       }
+       .receiver
+       {
+        margin-top: 5px;
+    background:grey;
+    text-align: center;
+    color: white;
+    border-radius: 20px; 
+    width: 40%;
+    height: 100%;
+    overflow-wrap: break-word;
+    align-self: flex-start;
+       }
+      #user
+      {
+          margin-top:10px;
+          display:flex;
+          justify-content: center
+      }
+      #user input{
+          border-radius: 10px;
+          border:1px solid;
+          width:40%;
+          font-size:20px;
+          text-align: center
+      }
+      #user input:focus{
+          outline: none
+      }
+      #user button:focus{
+          outline:none
+      }
+      #user button{
+          cursor: pointer;
+          margin-left: 2%;
+      }
+      #joinChat
+      { min-width: 9%; background: rgb(7, 144, 202); border: none; padding: 10px;border-radius: 20px;color:white }
+      #typing
+      {
+        color: black;
+    width: 100%;
+    min-height: 20px;
+    padding-left: 5px;
+    text-align: center
+      }
+      #joinedList
+      {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+      }
+      #joinedList li
+      {
+        width: 25%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top:3px;
+}
+      .joinedChat
+      {
+        color: #629055;
+      }
+      .leftChat
+      {
+        color: #ca4f4f;
+      }
+      #chatBoard
+      {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        height: 700px;
+        overflow: scroll;
+        background: #e8e4e15e;
+      }
